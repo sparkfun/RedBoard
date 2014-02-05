@@ -12671,7 +12671,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Aesthetics" deviceset="LOGO-SFE" device="NW2"/>
 <part name="JP7" library="SparkFun-Aesthetics" deviceset="LOGO-SFE" device="SK"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="SMT_MALE"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="SMT_MALE" value="ICSP"/>
 <part name="C6" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="FT231X" device="S"/>
