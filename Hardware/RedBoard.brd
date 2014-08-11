@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -151,7 +151,7 @@
 <text x="0" y="-0.0635" size="0.0254" layer="214" font="vector">D:/SmartProjects/Snc/a4_bn_logo2.bmp</text>
 <text x="64.77" y="45.593" size="1.4224" layer="26" ratio="12" rot="MR0">MADE IN</text>
 <text x="64.135" y="43.053" size="1.4224" layer="26" ratio="12" rot="MR0">ITALY</text>
-<text x="4.191" y="48.514" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">v21</text>
+<text x="4.191" y="48.514" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">v22</text>
 <text x="32.893" y="-24.13" size="1.778" layer="51" font="vector" ratio="12">J.Lindblom</text>
 <rectangle x1="0.635" y1="22.352" x2="2.032" y2="30.607" layer="43"/>
 <rectangle x1="5.715" y1="23.114" x2="7.366" y2="30.607" layer="43"/>
