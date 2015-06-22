@@ -1,8 +1,8 @@
-RedBoard
+SparkFun RedBoard
 ============================
 
-[![RedBoard](https://cdn.sparkfun.com//assets/parts/9/5/1/8/12757-01.jpg)  
-*RedBoard (DEV-12757)*](https://www.sparkfun.com/products/12757)
+[![SparkFun RedBoard](https://cdn.sparkfun.com//assets/parts/9/5/1/8/12757-01.jpg)  
+*SparkFun RedBoard (DEV-12757)*](https://www.sparkfun.com/products/12757)
 
 The RedBoard combines the simplicity of the UNO's Optiboot bootloader (which is used in the Pro series), the stability of the FTDI (which we all missed after the Duemilanove was discontinued) and the R3 shield compatibility of the latest Arduino UNO R3.
 
@@ -10,11 +10,26 @@ The RedBoard can be programmed over a USB Mini-B cable using the Arduino IDE: Ju
 
 Repository Contents
 -------------------
-* **/Hardware** - All Eagle design files (.brd, .sch)
+* **/Documentation** - Data sheets, additional product information
+* **/Hardware** - Eagle design files (.brd, .sch)
+* **/Production** - Production panel files (.brd)
+
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/redboard-hookup-guide)** - Basic hookup guide for the Redboard.
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
+* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
 
 License Information
 -------------------
-The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
-All other code is open source so please feel free to do anything you want with it; you buy me a beer if you use this and we meet someday ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
 
+This product is _**open source**_! 
+
+Please review the LICENSE.md file for license information. 
+
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
