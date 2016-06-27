@@ -31445,6 +31445,12 @@ Keying posts into board</description>
 <wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="-2.54" x2="3.275" y2="-2.54" width="0.2032" layer="21"/>
 <wire x1="-3.429" y1="-4.064" x2="-3.429" y2="-2.794" width="0.2032" layer="21"/>
+<rectangle x1="-2.86" y1="-3.75" x2="-2.22" y2="-1.75" layer="51"/>
+<rectangle x1="-0.32" y1="-3.75" x2="0.32" y2="-1.75" layer="51"/>
+<rectangle x1="2.22" y1="-3.75" x2="2.86" y2="-1.75" layer="51"/>
+<rectangle x1="2.22" y1="1.75" x2="2.86" y2="3.75" layer="51" rot="R180"/>
+<rectangle x1="-0.32" y1="1.75" x2="0.32" y2="3.75" layer="51" rot="R180"/>
+<rectangle x1="-2.86" y1="1.75" x2="-2.22" y2="3.75" layer="51" rot="R180"/>
 </package>
 <package name="1X10_NO_SILK">
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -36828,9 +36834,9 @@ T.Igoe, G.Martino, D.Mellis</text>
 <pinref part="U4" gate="U$1" pin="PB4(MISO)"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="91.44" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<label x="12.7" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="15.24" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="1"/>
@@ -36851,9 +36857,9 @@ T.Igoe, G.Martino, D.Mellis</text>
 <pinref part="U4" gate="U$1" pin="PB5(SCK)"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="88.9" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="3"/>
-<label x="12.7" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="15.24" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TP5" gate="G$1" pin="1"/>
@@ -37160,9 +37166,9 @@ T.Igoe, G.Martino, D.Mellis</text>
 </net>
 <net name="RESET" class="0">
 <segment>
-<wire x1="17.78" y1="86.36" x2="12.7" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="5"/>
-<label x="12.7" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="15.24" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="170.18" x2="124.46" y2="170.18" width="0.1524" layer="91"/>
