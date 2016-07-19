@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36359,7 +36359,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+1" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="U$8" library="SparkFun" deviceset="5V" device=""/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND24" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC3" library="Testing" deviceset="V_REG_LM1117" device="ALT1" value="LM1117">
 <attribute name="PROD_ID" value="VREG-08170"/>
@@ -36395,7 +36395,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
 <part name="JP7" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_3X2" device="SMD" value="ICSP"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_3X2" device="SMD" value="ICSP">
+<attribute name="PROD_ID" value="CONN-11415"/>
+</part>
 <part name="C6" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" value="10uF"/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-IC-Comms" deviceset="FT231X" device="S" value="FT231XS"/>

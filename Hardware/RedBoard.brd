@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -25431,7 +25431,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-00810" x="27.94" y="29.337" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="6.35" y="32.512">
-<attribute name="PROD_ID" value="CAP-08604" x="6.35" y="32.512" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="CAP-00810" x="6.35" y="32.512" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1uF" x="6.35" y="32.512" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC3" library="Testing" package="SOT223-ALT1" value="LM1117" x="7.62" y="21.59" rot="R90">
@@ -25500,7 +25500,7 @@ design rules under a new name.</description>
 <element name="JP1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="32.7914" y="36.449"/>
 <element name="JP7" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="39.2684" y="38.989"/>
 <element name="J2" library="SparkFun-Connectors" package="2X3_SMT_POSTS" value="ICSP" x="64.77" y="27.94" rot="R270">
-<attribute name="PROD_ID" value="CONN-11290" x="64.77" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CONN-11415" x="64.77" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" package="EIA3216" value="10uF" x="20.32" y="22.352">
 <attribute name="PROD_ID" value="CAP-00811" x="20.32" y="22.352" size="1.778" layer="27" display="off"/>
