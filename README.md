@@ -1,8 +1,8 @@
 SparkFun RedBoard
 ============================
 
-[![SparkFun RedBoard](https://cdn.sparkfun.com//assets/parts/9/5/1/8/12757-01.jpg)  
-*SparkFun RedBoard (DEV-12757)*](https://www.sparkfun.com/products/12757)
+[![SparkFun RedBoard](https://cdn.sparkfun.com//assets/parts/1/1/7/2/2/13975-01.jpg)  
+*SparkFun RedBoard (DEV-13975)*](https://www.sparkfun.com/products/13975)
 
 The RedBoard combines the simplicity of the UNO's Optiboot bootloader (which is used in the Pro series), the stability of the FTDI (which we all missed after the Duemilanove was discontinued) and the R3 shield compatibility of the latest Arduino UNO R3.
 
