@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36387,7 +36387,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP2" library="SparkFun-Connectors" deviceset="M10" device="SMD_COMBO">
 <attribute name="PROD_ID" value="CONN-11219"/>
 </part>
-<part name="JP10" library="SparkFun-Connectors" deviceset="M08" device="SMD-COMBO">
+<part name="JP10" library="SparkFun-Connectors" deviceset="M08" device="SMD-COMBO" value="JP10">
 <attribute name="PROD_ID" value="CONN-10204"/>
 </part>
 <part name="Y1" library="SparkFun-Clocks" deviceset="RESONATOR-16MHZ" device="SMD_3.2X1.3" value="16MHz"/>
