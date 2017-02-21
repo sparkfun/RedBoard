@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -25487,7 +25487,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="20.193" y="50.038" size="1.27" layer="27"/>
 <attribute name="PROD_ID" value="CONN-11219" x="18.796" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP10" library="SparkFun-Connectors" package="1X08_SMD_COMBINED" value="" x="45.72" y="2.54" rot="R180">
+<element name="JP10" library="SparkFun-Connectors" package="1X08_SMD_COMBINED" value="JP10" x="45.72" y="2.54" rot="R180">
 <attribute name="PROD_ID" value="CONN-10204" x="45.72" y="2.54" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Y1" library="SparkFun-Clocks" package="RESONATOR-SMD-3.2X1.3" value="16MHz" x="49.53" y="22.352" rot="R90">
