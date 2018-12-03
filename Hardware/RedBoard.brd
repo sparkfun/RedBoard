@@ -170,7 +170,7 @@
 <wire x1="66.04" y1="51.816" x2="66.04" y2="40.386" width="0.2032" layer="20"/>
 <text x="0" y="-0.0635" size="0.0254" layer="214" font="vector">D:/SmartProjects/Snc/a4_bn_logo2.bmp</text>
 <text x="4.191" y="48.514" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">v10</text>
-<text x="29.083" y="-35.56" size="1.778" layer="51" font="vector">J. Lindblom, N. Seidle</text>
+<text x="31.623" y="-16.764" size="1.778" layer="51" font="vector">J. Lindblom, N. Seidle</text>
 <rectangle x1="0.635" y1="22.352" x2="2.032" y2="30.607" layer="43"/>
 <rectangle x1="5.715" y1="23.114" x2="7.366" y2="30.607" layer="43"/>
 <rectangle x1="47.879" y1="10.795" x2="48.514" y2="11.303" layer="43"/>
@@ -6607,7 +6607,7 @@
 <dimension x1="0" y1="0" x2="66.04" y2="52.07" x3="-21.59" y3="26.035" textsize="0.889" textratio="15" layer="47" dtype="vertical" unit="inch" precision="3"/>
 <dimension x1="0" y1="0" x2="64.77" y2="53.34" x3="-24.13" y3="26.67" textsize="0.889" textratio="15" layer="47" dtype="vertical" unit="inch" precision="3"/>
 <text x="-15.24" y="-6.35" size="0.889" layer="47" font="vector" ratio="15">Units in inches</text>
-<text x="27.94" y="-36.83" size="1.778" layer="51" font="vector" align="top-center">Based on Arduino by: M. Banzi, D. Cuartielles, 
+<text x="30.353" y="-21.463" size="1.778" layer="51" font="vector" align="top-center">Based on Arduino by: M. Banzi, D. Cuartielles, 
 T. Igoe, G. Martino, D. Mellis</text>
 <rectangle x1="22.697440625" y1="32.3827125" x2="22.984459375" y2="32.4144625" layer="21"/>
 <rectangle x1="23.368" y1="32.3827125" x2="23.65501875" y2="32.4144625" layer="21"/>
@@ -22101,6 +22101,7 @@ T. Igoe, G. Martino, D. Mellis</text>
 <rectangle x1="33.5555375" y1="45.587209375" x2="63.1770125" y2="45.610321875" layer="22" rot="R180"/>
 <rectangle x1="33.5555375" y1="45.610321875" x2="63.1770125" y2="45.633690625" layer="22" rot="R180"/>
 <rectangle x1="33.624115625" y1="45.633690625" x2="63.128753125" y2="45.657059375" layer="22" rot="R180"/>
+<text x="31.496" y="-19.812" size="1.778" layer="51" font="vector">The Hoff</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -25965,6 +25966,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="16" x="-4.445" y="2.8" dx="0.6" dy="1.2" layer="1"/>
 <text x="-3.81" y="0" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-1.27" size="0.6096" layer="27">&gt;VALUE</text>
+<circle x="-5.715" y="-2.54" radius="0.127" width="0.254" layer="21"/>
 </package>
 </packages>
 </library>
@@ -26682,17 +26684,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="55.88" y="13.208" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$2" library="Labels-0_04" package="(QWIIC)" value="" x="61.849" y="13.97" rot="R90"/>
-<element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-5.08" y="-49.53"/>
+<element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="1.016" y="-16.764"/>
 <element name="U1" library="SparkFun-IC-Comms" package="SO016" value="CH340C" x="11.176" y="39.37" rot="R90">
 <attribute name="PROD_ID" value="IC-14038" x="11.176" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP12" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" value="" x="62.23" y="12.319" rot="MR270"/>
 <element name="JP14" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" value="" x="53.34" y="12.319" rot="MR270"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="-25.527" y="-52.959"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="12.446" y="-19.939"/>
 <element name="U$1" library="Labels-0_04" package="(QWIIC)" value="" x="50.419" y="36.957"/>
 <element name="U$3" library="Labels-0_04" package="(QWIIC)" value="" x="38.989" y="46.482" rot="MR0"/>
 <element name="U$4" library="buzzard_labels_J12" package="J120" value="" x="60.706" y="11.303" rot="MR90"/>
 <element name="U$9" library="buzzard_labels_J14" package="J140" value="" x="51.816" y="11.176" rot="MR90"/>
+<element name="JP15" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="11.43" y="52.07" rot="MR0"/>
+<element name="JP16" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="66.04" y="11.43" rot="MR0"/>
 </elements>
 <signals>
 <signal name="RX-I">

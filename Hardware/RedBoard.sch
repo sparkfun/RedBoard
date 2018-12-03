@@ -37031,6 +37031,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="16" x="-4.445" y="2.8" dx="0.6" dy="1.2" layer="1"/>
 <text x="-3.81" y="0" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-1.27" size="0.6096" layer="27">&gt;VALUE</text>
+<circle x="-5.715" y="-2.54" radius="0.127" width="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -37385,6 +37386,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP12" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
 <part name="JP14" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
+<part name="JP15" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
+<part name="JP16" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -37615,6 +37618,8 @@ as needed.</text>
 <instance part="JP12" gate="G$1" x="139.7" y="40.64" rot="R180"/>
 <instance part="JP14" gate="G$1" x="195.58" y="40.64" rot="R180"/>
 <instance part="LOGO1" gate="G$1" x="201.93" y="11.684"/>
+<instance part="JP15" gate="G$1" x="236.22" y="20.32" rot="R90"/>
+<instance part="JP16" gate="G$1" x="231.14" y="20.32" rot="R90"/>
 </instances>
 <busses>
 </busses>
