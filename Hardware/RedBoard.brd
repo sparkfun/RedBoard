@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -19,34 +19,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="2" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="5" fill="6" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="2" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="5" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="ReferenceLC" color="13" fill="1" visible="no" active="yes"/>
-<layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="ReferenceLC" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="ReferenceLS" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -26433,9 +26433,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -27706,17 +27703,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="62.23" y1="13.97" x2="60.286" y2="13.97" width="0.3048" layer="1"/>
 </signal>
 </signals>
-<mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
-<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
-</mfgpreviewcolors>
 <errors>
-<approved hash="23,1,0bc25230ac20f5d2"/>
-<approved hash="23,1,b203823f802bb017"/>
-<approved hash="23,16,adf39a979b87ace3"/>
 <approved hash="5,16,7795e9f85f9559e7"/>
 <approved hash="5,16,e9767760590d5f04"/>
 <approved hash="5,16,668deaff9e8a5af8"/>
@@ -27781,15 +27768,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,1,9415f33f10739f5c"/>
 <approved hash="4,1,563d8117425bcd75"/>
 <approved hash="4,1,60dad7f04ca0b38e"/>
-<approved hash="23,1,1c40123e14651a1b"/>
-<approved hash="23,1,eb9e01e006acecd2"/>
-<approved hash="23,1,7cfbcd07ca157be9"/>
-<approved hash="23,1,1b61058705981b7e"/>
-<approved hash="23,1,176109870998177e"/>
-<approved hash="23,1,4c7c18181f9c4bf8"/>
-<approved hash="23,1,1e1ca3faa2831f65"/>
-<approved hash="23,1,652a1bcc1af46412"/>
-<approved hash="23,1,4a641e001ca848cc"/>
 <approved hash="5,1,1c962d0b35b49c8f"/>
 <approved hash="5,1,fd2709d354877c80"/>
 <approved hash="5,1,6b869f837ee66f1d"/>
