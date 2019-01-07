@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -38207,7 +38207,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R16" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_HALF_PTH_MILL" value="AMP FCI 10103594-0001LF"/>
-<part name="LED5" library="SparkFun-LED" deviceset="LED-GREEN" device="_HIDDENSILK" value="GREEN"/>
+<part name="LED5" library="SparkFun-LED" deviceset="LED-GREEN" device="LILYPAD" value="GREEN"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
