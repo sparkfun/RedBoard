@@ -27218,12 +27218,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="37.846" y1="2.54" x2="38.1" y2="2.794" width="0.762" layer="1"/>
 <contactref element="JP10" pad="4"/>
 <wire x1="38.1" y1="4.19" x2="38.1" y2="2.032" width="0.3048" layer="1"/>
-<contactref element="JP10" pad="7"/>
-<via x="31.75" y="2.54" extent="1-16" drill="0.381"/>
 <wire x1="31.75" y1="2.54" x2="36.83" y2="2.54" width="0.762" layer="16"/>
-<wire x1="31.75" y1="2.54" x2="30.48" y2="2.54" width="0.762" layer="1"/>
-<wire x1="30.48" y1="2.54" x2="30.48" y2="0.89" width="0.762" layer="1"/>
-<wire x1="30.48" y1="4.19" x2="30.48" y2="2.54" width="0.762" layer="1"/>
 <contactref element="R4" pad="2"/>
 <wire x1="17.272" y1="18.034" x2="11.557" y2="18.034" width="0.762" layer="16"/>
 <via x="17.272" y="18.034" extent="1-16" drill="0.381"/>
@@ -27680,6 +27675,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U1" pad="16"/>
 <wire x1="7.868" y1="34.925" x2="8.001" y2="34.925" width="0.3048" layer="1"/>
 <wire x1="8.802" y1="34.124" x2="10.072" y2="34.124" width="0.3048" layer="1"/>
+<contactref element="JP10" pad="7"/>
+<wire x1="31.75" y1="21.59" x2="31.75" y2="10.16" width="0.254" layer="1"/>
+<wire x1="30.48" y1="0.89" x2="30.48" y2="5.9182" width="0.254" layer="1"/>
+<wire x1="31.75" y1="7.1882" x2="31.75" y2="10.16" width="0.254" layer="1"/>
+<wire x1="30.48" y1="5.9182" x2="31.75" y2="7.1882" width="0.254" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="J1" pad="D-"/>
@@ -27834,7 +27834,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="5,1,6b869f837ee66f1d"/>
 <approved hash="5,1,20b219504cc504dc"/>
 <approved hash="19,1,7022a0d2bf12561c"/>
-<approved hash="19,1,c533841efb5d3a45"/>
 <approved hash="19,1,cbf166eb9eef33f5"/>
 <approved hash="19,1,a14d98026a97c03a"/>
 <approved hash="19,1,775ae3d58f131864"/>
@@ -27850,7 +27849,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,1,dce848ac8de6785c"/>
 <approved hash="19,1,57d1dc6caaa512d9"/>
 <approved hash="19,1,42f7d8b42a8bb0c8"/>
-<approved hash="19,1,29429afa500e5475"/>
 <approved hash="19,1,a2d390b60fc8122e"/>
 <approved hash="19,1,247578bb24397b0f"/>
 <approved hash="19,1,2e4fead78711ba70"/>
@@ -27868,8 +27866,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,1,d930f1d7cf11f80f"/>
 <approved hash="19,1,f00494b9ac384b40"/>
 <approved hash="19,1,65602dd6bf16505e"/>
-<approved hash="19,1,64438819807b6ca1"/>
-<approved hash="19,1,78f2abedfb1f9fc3"/>
 <approved hash="19,1,5d6143b80c3aeb1a"/>
 <approved hash="19,1,415037bad43b2b24"/>
 <approved hash="19,1,820906f099972eb6"/>
@@ -27919,11 +27915,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,5a5a7a757c77936e"/>
 <approved hash="19,16,6f52ce4c16237893"/>
 <approved hash="23,1,7cfbcd07ca157be9"/>
-<approved hash="23,1,4a641e001ca848cc"/>
 <approved hash="23,1,b203823f802bb017"/>
 <approved hash="23,1,1b61058705981b7e"/>
 <approved hash="23,1,1c40123e14651a1b"/>
 <approved hash="23,16,adf39a979b87ace3"/>
+<approved hash="19,1,b96fbeba0ebe096b"/>
+<approved hash="19,1,64895593ad959c8f"/>
 </errors>
 </board>
 </drawing>
