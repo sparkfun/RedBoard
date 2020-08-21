@@ -23,9 +23,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="2" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="2" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="5" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -26836,15 +26836,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$9" library="buzzard_labels_J14" package="J140" value="" x="51.816" y="11.176" smashed="yes" rot="MR90"/>
 <element name="JP15" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="11.43" y="52.07" smashed="yes" rot="MR0"/>
 <element name="JP16" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="66.04" y="11.43" smashed="yes" rot="MR0"/>
-<element name="C7" library="SparkFun-Capacitors" package="0603" value="22pF" x="16.3576" y="39.7002" smashed="yes">
+<element name="C7" library="SparkFun-Capacitors" package="0603" value="10pF" x="16.3576" y="39.7002" smashed="yes">
 <attribute name="NAME" x="16.3576" y="40.4622" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-07876" x="16.3576" y="44.7802" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.3576" y="38.9382" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-11812" x="16.3576" y="44.7802" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="10pF" x="16.3576" y="38.9382" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C11" library="SparkFun-Capacitors" package="0603" value="22pF" x="16.4084" y="45.593" smashed="yes" rot="R180">
+<element name="C11" library="SparkFun-Capacitors" package="0603" value="10pF" x="16.4084" y="45.593" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.4084" y="44.831" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-07876" x="16.4084" y="40.513" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="16.4084" y="46.355" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-11812" x="16.4084" y="40.513" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="10pF" x="16.4084" y="46.355" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="Y2" library="USB Basic" package="CRYSTAL-SMD-3.2X2.5" value="12MHz" x="16.383" y="42.7482" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.986" y="41.0972" size="0.4318" layer="25" rot="R90"/>
