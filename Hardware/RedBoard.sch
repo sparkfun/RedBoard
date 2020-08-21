@@ -39384,7 +39384,8 @@ as needed.</text>
 <label x="114.3" y="170.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="144.78" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="144.78" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
@@ -39396,11 +39397,13 @@ as needed.</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
-<label x="38.1" y="147.32" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 <pinref part="S1" gate="G$1" pin="3"/>
 <pinref part="S1" gate="G$1" pin="4"/>
 <pinref part="U4" gate="U$1" pin="PC6(/RESET)"/>
-<wire x1="38.1" y1="147.32" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="144.78" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<junction x="48.26" y="144.78"/>
+<wire x1="48.26" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
+<label x="50.8" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TP6" gate="G$1" pin="1"/>
